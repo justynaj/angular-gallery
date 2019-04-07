@@ -1,0 +1,12 @@
+:host {
+  cursor: pointer;
+}
+
+img {
+  border: solid 5px #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+
+  &.is-selected {
+    border-color: #ffcbcb;
+  }
+}

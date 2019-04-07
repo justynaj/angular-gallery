@@ -1,0 +1,10 @@
+<div class="thumbs" *ngIf="photos && photos.length > 0">
+  <app-photo-thumb
+    *ngFor="let photo of photos; let i = index"
+    [photoUrl]="photo.thumb"
+    [isSelected]="photo.isSelected"
+    (click)="selectPhoto(i)"
+  ></app-photo-thumb>
+</div>
+
+<app-photo [photoUrl]="mainPhotoUrl" *ngIf="mainPhotoUrl" class="main-photo"></app-photo>

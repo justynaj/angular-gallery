@@ -1,0 +1,16 @@
+{
+  "photos": [
+    {
+      "thumb": "https://picsum.photos/200/113?image=13",
+      "image": "https://picsum.photos/600/400?image=13"
+    },
+    {
+      "thumb": "https://picsum.photos/200/113?image=24",
+      "image": "https://picsum.photos/600/400?image=24"
+    },
+    {
+      "thumb": "https://picsum.photos/200/113?image=35",
+      "image": "https://picsum.photos/600/400?image=35"
+    }
+  ]
+}
